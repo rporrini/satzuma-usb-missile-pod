@@ -5,7 +5,7 @@
 ### Run it
 
 ``` 
-docker run -it --privileged -v /dev/bus/usb:/dev/bus/usb satzuma-usb-missile-pod
+docker run -it --privileged -v /dev/bus/usb:/dev/bus/usb rporrini/satzuma-usb-missile-pod
 ```
 Enjoy!
 
