@@ -2,12 +2,12 @@
 
 ### Run the container
 
-To start contolling the 
-``` 
+To start contolling the
+```
 docker run -it --privileged -v /dev/bus/usb:/dev/bus/usb satzuma-usb-missile-pod
 ```
 Enjoy!
 
 ### Credits
 
-https://github.com/momentofgeekiness/pymissile-ng
+* Thanks to https://github.com/momentofgeekiness/pymissile-ng
