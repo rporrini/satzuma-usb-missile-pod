@@ -1,8 +1,9 @@
-![The satzuma missile pod](http://cdn.momentofgeekiness.com/wp-content/uploads/2013/05/usb-missile-launcher05.jpg?x15551)
+### Docker image for controlling the Satzuma USB missile pod
 
-### Run the container
+![The satzuma usb missile pod](http://ecx.images-amazon.com/images/I/41mOLPwwQpL._SY300_QL70_.jpg)
 
-To start contolling the 
+### Run it
+
 ``` 
 docker run -it --privileged -v /dev/bus/usb:/dev/bus/usb satzuma-usb-missile-pod
 ```
@@ -10,4 +11,4 @@ Enjoy!
 
 ### Credits
 
-https://github.com/momentofgeekiness/pymissile-ng
+* https://github.com/momentofgeekiness/pymissile-ng
